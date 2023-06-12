@@ -20,7 +20,14 @@ function switchTheme() {
   } else {
     toggleImg.src = '../IMG/night.png';
   }
+<<<<<<< HEAD
 }
 /// js api coin 
 
 
+=======
+  /// js api coin 
+  
+  
+  
+>>>>>>> 6383c264001a179567fc537f87656718917ad899
