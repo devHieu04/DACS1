@@ -40,7 +40,29 @@ body.dark-mode {
   background-color: #2b2b2b;
   color: #ffffff;
 }
-
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+canvas {
+  max-width: 100%;
+}
+.chart-cell {
+  width: 200px; /* Điều chỉnh kích thước của cột biểu đồ */
+}
+.transaction-cell {
+  width: 100px; /* Điều chỉnh kích thước của cột giao dịch */
+}
 .dark-mode-toggle {
   /* width: 20px;
     height: 20px; */
