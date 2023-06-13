@@ -1,61 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Login - Binance</title>
-    
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../CSS/loginpage.css" />
-  </head>
-  <body>
-    <header>
-        <img src="../IMG/coinlogo.png" alt="" srcset="" class="imga">
-        <h4>TQV coin</h4>
-    </header>
-    <div class="container">
-        <div class="card">
-          <div class="card-header">
-            <h1 class="card-title">Đăng nhập</h1>
-          </div>
-          <div class="card-body">
-            <form>
-              <input type="email" class="form-control" placeholder="Email" required>
-              <input type="password" class="form-control" placeholder="Mật khẩu" required>
-              <button class="btn">Đăng nhập</button>
-            </form>
-            <div class="social-login">
-              <p class="text">Hoặc đăng nhập với:</p>
-              <a href="#" class="btn-social"><i class="fab fa-google"></i> Google or</a>
-
-              <a href="#" class="btn-social"><i class="fab fa-facebook-f"></i> Facebook</a>
+<head>
+  <link rel="stylesheet" href="../CSS/loginpage.css">
+  <title>LOGIN BINANCE</title>
+  <style type="text/css">
+  .fgpass:hover{
+  color: black;
+  text-decoration: none;
+  }
+  </style>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+              <form action="../PHP/login.php" method="post" autocomplete="off">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required name="username">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password"  minlength="6" required name="password">
+                        <label for="">Password</label>
+                    </div>
+                <div class="forget">
+				  <label for=""><input type="checkbox">Remember Me</label>
+				  <a class="fgpass" href="../HTML/findpass.html" style="float: right;">Forget Password</a>
+				</div>
+                    <button>Log in</button>
+                    <div class="register">
+                        <p>Don't have a account <a href="../HTML/regester.html">Register</a></p>
+                    </div>
+                </form>
             </div>
-            <a href="./regester.html" class="link">Chưa có tài khoản? Đăng ký ngay</a>
-          </div>
         </div>
-      </div>
-      
-
-    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-7Fkz3YRX+E7Z4qIk2W0J0U6+Xa6lPvJ/j8O9l1u6O/2+gStJjh+5C5g4yJpV9X4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="../JS/scriptlog.js"></script>
-  </body>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../CSS/loginpage.css">
+<link rel="stylesheet" href="../CSS/findpass.css">
+<title>Password Retrieval</title>
+<style type="text/css">
+</style>
+</head>
+<body>
+	<section>
+		<div class="form-box">
+			<div class="form-value">
+				<form action="../PHP/send.php" method="post" class="password-form">
+					<h2>Password Retrieval</h2>
+					<div class="maila">
+						<div class="inputbox mailv">
+							<ion-icon name="mail-outline"></ion-icon>
+							<input type="email" name="username" required class="email-input">
+							<label for="">Email</label>
+						</div>
+						<input type="hidden" name="email_default" value="default_value">
+					<button type="submit" class="send-button" name="send">Send<span class="countdown"></span></button>
+					</div>
+				</form>
+				<form action="../PHP/check.php"  method="post" autocomplete="off">
+					<div class="inputbox">
+					<input type="number" id="code-input" maxlength="6" required name="code" > <label
+							for="">Verification code</label>
+					</div>
+					<div class="inputbox">
+						<ion-icon name="lock-closed-outline"></ion-icon>
+						<input type="password" required minlength="6" name="password" id="password-input"> 
+						<label for="">Password</label>
+					</div>
+					<div class="inputbox">
+						<ion-icon name="lock-closed-outline"></ion-icon>
+						<input type="password" required minlength="6" name="confirm-password" id="confirm-password-input"> 
+						<label for="">Confirm Password</label>
+					</div>
+					<a href="../HTML/loginpage.html" class="back-button"> <svg
+							xmlns="http://www.w3.org/2000/svg" height="1em"
+							viewBox="0 0 320 512">
+            <path
+								d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+        </svg>
+					</a>
+					<button>confirm</button>
+				</form>
+			</div>
+		</div>
+	</section>
+<script>
+const codeInput = document.getElementById('code-input');
+
+codeInput.addEventListener('input', (event) => {
+  const maxLength = parseInt(event.target.getAttribute('maxlength'));
+  const value = event.target.value;
+
+  if (value.length > maxLength) {
+    event.target.value = value.substring(0, maxLength);
+  }
+});
+</script>
+</body>
+</html>

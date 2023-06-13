@@ -1,24 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Đăng ký tài khoản</title>
-    <link rel="stylesheet" href="../CSS/regester.css">
-  </head>
-  <body>
-    <div class="container">
-      <form action="#">
-        <h2>Đăng ký tài khoản</h2>
-        <label for="username">Tên đăng nhập:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="password">Mật khẩu:</label>
-        <input type="password" id="password" name="password" minlength="8" required>
-        <label for="confirm-password">Xác nhận mật khẩu:</label>
-        <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
-        <button type="submit">Đăng ký</button>
-        <p class="disclaimer">Bằng cách nhấn vào nút Đăng ký, bạn đồng ý với các <a href="#">Điều khoản và Điều kiện</a> của chúng tôi.</p>
-      </form>
-    </div>
-  </body>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../CSS/loginpage.css">
+  <link rel="stylesheet" href="../CSS/regester.css">
+  <title>REGESTER BINANCE</title>
+  <style type="text/css">
+</style>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+              <form action="../PHP/regester.php" method="post" autocomplete="off">
+                    <h2>Register</h2>
+                       <div class="inputbox">
+                        <input type="text" required name="name">
+                        <label for="">name</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required name="username">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required minlength="6" name="password">
+                        <label for="">Password</label>
+                    </div>
+                       <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required  minlength="6" name="confirm-password">
+                        <label for="">Confirm Password</label>
+                    </div>
+             <a href="../HTML/loginpage.html" class="back-button"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg></a>
+                    <button>Register</button>
+                 
+                    <p class="disclaimer"><a href="#">Điều khoản và Điều kiện</a> của chúng tôi.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>

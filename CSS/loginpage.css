@@ -1,104 +1,116 @@
-.text-white-hover:hover {
-    color: white;
-  }
-  .social-icons li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  .text-yellow {
-    color: rgb(102, 102, 20);
-  }
-  .btn-primary:hover {
-    background-color: rgb(0, 155, 171);
-    border-radius: 3px;
-  }
-  .text-color-green {
-    color: green;
-    margin-left: 1rem;
-    padding: 2px;
-    border-radius: 999;
-    background-color: aliceblue;
-  }
-  .list-unstyled {
-    list-style: none;
-  }
-  .social-icons li a {
-    text-decoration: none;
-  }
-  h1, h2, h3, h4, h5, h6,
-  body {
-    font-family: 'Adcumin', sans-serif;
-  }
-  
-  body {
-    background-color: #ffffff;
-    color: #000000;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  body.dark-mode {
-    background-color: #2b2b2b;
-    color: #ffffff;
-  }
-  table {
-    border-collapse: separate;
-    border-spacing: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     width: 100%;
+    
+    background: url('../IMG/background6.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
     border: none;
-  }
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid black;
-  }
-  tr:last-child td {
-    border-bottom: none;
-  }
-  canvas {
-    max-width: 100%;
-  }
-  .chart-cell {
-    width: 200px; /* Điều chỉnh kích thước của cột biểu đồ */
-  }
-  .transaction-cell {
-    width: 100px; /* Điều chỉnh kích thước của cột giao dịch */
-  }
-  .dark-mode-toggle {
-    /* width: 20px;
-      height: 20px; */
-    margin-left: 1rem;
-    margin-top: 0, 5rem;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
     cursor: pointer;
-  }
-  
-  .dark-mode-toggle.dark-mode {
-    content: url(/IMG/night.png);
-  }
-  .hd {
-      margin-left: 1rem ;
-  }
-  @media (max-width: 767px) {
-    .navbar-nav {
-      display: none;
-    }
-  
-    .navbar-nav.show {
-      display: flex;
-      flex-direction: column;
-      background-color: #f8f9fa;
-      padding: 10px;
-    }
-  
-    .navbar-nav.show .nav-item {
-      margin-bottom: 10px;
-    }
-  
-    .navbar-toggler {
-      display: block;
-    }
-  
-    .navbar-nav .nav-link {
-      display: block;
-      width: 100%;
-    }
-  }
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}

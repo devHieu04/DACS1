@@ -1,0 +1,72 @@
+.back-button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 20px;
+	font-size: 0.9em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.back-button:hover {
+	text-decoration: underline;
+}
+
+.back-button:hover {
+	text-decoration: underline;
+}
+
+.form-box {
+	width: 500px;
+	height: 550px;
+}
+
+.back-button svg {
+	height: 2em;
+	width: 2em;
+	margin-right: 5px;
+	fill: #fff;
+	transition: fill 0.3s ease;
+}
+
+.back-button:hover svg {
+	fill: #000;
+}
+
+.back-button:hover svg {
+	fill: #000;
+}
+
+.send-button {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.send-button.countdown {
+	background-color: gray;
+	color: white;
+	cursor: not-allowed;
+}
+
+.send-button:hover {
+	background-color: #0062cc;
+}
+
+.mailv {
+	width: 120%
+}
+
+.send-button {
+	width: 25%;
+	position: relative;
+	right: -60px;
+	top: 60px;
+}
+
+.maila {
+	display: flex;
+	width: 100%
+}
