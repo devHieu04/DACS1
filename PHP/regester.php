@@ -13,7 +13,7 @@ if($pass!=$pass2){
 }
 else{
     $db = mysqli_connect($servername, $username, $password , "javacuoiki2");
-    $sql = "INSERT INTO account (ten, email, matkhau) VALUES ('$name', '$user', '$pass')";
+    $sql = "INSERT INTO account (ten, email, matkhau , tien) VALUES ('$name', '$user', '$pass' ,0)";
 $rs = mysqli_query($db, $sql);
 
 if($rs){
