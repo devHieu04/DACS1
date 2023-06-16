@@ -1,0 +1,329 @@
+{
+    "coins": [
+      {
+        "name": "Bitcoin",
+        "value": 35000,
+        "change_24h": 0.05,
+        "change_7d": 0.1
+      },
+      {
+        "name": "Ethereum",
+        "value": 2500,
+        "change_24h": -0.02,
+        "change_7d": 0.15
+      },
+      {
+        "name": "Binance Coin",
+        "value": 350,
+        "change_24h": 0.08,
+        "change_7d": -0.05
+      },
+      {
+        "name": "Cardano",
+        "value": 1.5,
+        "change_24h": 0.03,
+        "change_7d": 0.02
+      },
+      {
+        "name": "Dogecoin",
+        "value": 0.35,
+        "change_24h": 0.06,
+        "change_7d": -0.01
+      },
+      {
+        "name": "XRP",
+        "value": 0.8,
+        "change_24h": 0.02,
+        "change_7d": 0.04
+      },
+      {
+        "name": "Polkadot",
+        "value": 25,
+        "change_24h": 0.1,
+        "change_7d": 0.25
+      },
+      {
+        "name": "Uniswap",
+        "value": 18,
+        "change_24h": -0.05,
+        "change_7d": -0.12
+      },
+      {
+        "name": "Litecoin",
+        "value": 180,
+        "change_24h": 0.01,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Chainlink",
+        "value": 20,
+        "change_24h": -0.03,
+        "change_7d": 0.06
+      },
+      {
+        "name": "Bitcoin Cash",
+        "value": 550,
+        "change_24h": -0.01,
+        "change_7d": -0.03
+      },
+      {
+        "name": "Stellar",
+        "value": 0.4,
+        "change_24h": 0.05,
+        "change_7d": 0.1
+      },
+      {
+        "name": "Theta Network",
+        "value": 6,
+        "change_24h": 0.02,
+        "change_7d": 0.15
+      },
+      {
+        "name": "VeChain",
+        "value": 0.15,
+        "change_24h": -0.02,
+        "change_7d": -0.1
+      },
+      {
+        "name": "Filecoin",
+        "value": 50,
+        "change_24h": 0.08,
+        "change_7d": 0.2
+      },
+      {
+        "name": "Wrapped Bitcoin",
+        "value": 35050,
+        "change_24h": 0.06,
+        "change_7d": 0.12
+      },
+      {
+        "name": "Ethereum Classic",
+        "value": 60,
+        "change_24h": 0.04,
+        "change_7d": 0.1
+      },
+      {
+        "name": "EOS",
+        "value": 5,
+        "change_24h": -0.02,
+        "change_7d": -0.05
+      },
+      {
+        "name": "TRON",
+        "value": 0.05,
+        "change_24h": 0.01,
+        "change_7d": 0.03
+      },
+      {
+        "name": "Tezos",
+        "value": 4,
+        "change_24h": -0.01,
+        "change_7d": -0.02
+      },
+      {
+        "name": "Monero",
+        "value": 150,
+        "change_24h": 0.03,
+        "change_7d": 0.08
+      },
+      {
+        "name": "NEO",
+        "value": 25,
+        "change_24h": 0.05,
+        "change_7d": 0.15
+      },
+      {
+        "name": "IOTA",
+        "value": 0.9,
+        "change_24h": -0.02,
+        "change_7d": -0.05
+      },
+      {
+        "name": "Cosmos",
+        "value": 20,
+        "change_24h": 0.02,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Aave",
+        "value": 300,
+        "change_24h": -0.03,
+        "change_7d": -0.1
+      },
+      {
+        "name": "Dash",
+        "value": 90,
+        "change_24h": 0.01,
+        "change_7d": 0.04
+      },
+      {
+        "name": "Maker",
+        "value": 2500,
+        "change_24h": 0.05,
+        "change_7d": 0.12
+      },
+      {
+        "name": "Compound",
+        "value": 200,
+        "change_24h": 0.02,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Bitcoin SV",
+        "value": 180,
+        "change_24h": -0.02,
+        "change_7d": -0.05
+      },
+      {
+        "name": "Synthetix Network Token",
+        "value": 10,
+        "change_24h": 0.03,
+        "change_7d": 0.1
+      },
+      {
+        "name": "Polygon",
+        "value": 1.2,
+        "change_24h": 0.02,
+        "change_7d": 0.05
+      },
+      {
+        "name": "THORChain",
+        "value": 5,
+        "change_24h": -0.01,
+        "change_7d": -0.02
+      },
+      {
+        "name": "Elrond",
+        "value": 50,
+        "change_24h": 0.03,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Kusama",
+        "value": 300,
+        "change_24h": 0.05,
+        "change_7d": 0.1
+      },
+      {
+        "name": "Compound",
+        "value": 200,
+        "change_24h": 0.02,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Bitcoin SV",
+        "value": 180,
+        "change_24h": -0.02,
+        "change_7d": -0.05
+      },
+      {
+        "name": "Synthetix Network Token",
+        "value": 10,
+        "change_24h": 0.03,
+        "change_7d": 0.1
+      },
+      {
+        "name": "Polygon",
+        "value": 1.2,
+        "change_24h": 0.02,
+        "change_7d": 0.05
+      },
+      {
+        "name": "THORChain",
+        "value": 5,
+        "change_24h": -0.01,
+        "change_7d": -0.02
+      },
+      {
+        "name": "Elrond",
+        "value": 50,
+        "change_24h": 0.03,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Kusama",
+        "value": 300,
+        "change_24h": 0.05,
+        "change_7d": 0.1
+      },
+      {
+        "name": "Fantom",
+        "value": 2,
+        "change_24h": -0.02,
+        "change_7d": -0.05
+      },
+      {
+        "name": "Huobi Token",
+        "value": 15,
+        "change_24h": 0.04,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Theta Fuel",
+        "value": 0.2,
+        "change_24h": 0.02,
+        "change_7d": 0.05
+      },
+      {
+        "name": "The Graph",
+        "value": 1,
+        "change_24h": 0.01,
+        "change_7d": 0.03
+      },
+      {
+        "name": "Waves",
+        "value": 20,
+        "change_24h": 0.02,
+        "change_7d": 0.05
+      },
+      {
+        "name": "BitTorrent",
+        "value": 0.001,
+        "change_24h": -0.01,
+        "change_7d": -0.02
+      },
+      {
+        "name": "Decred",
+        "value": 100,
+        "change_24h": 0.03,
+        "change_7d": 0.08
+      },
+      {
+        "name": "Zilliqa",
+        "value": 0.1,
+        "change_24h": 0.05,
+        "change_7d": 0.1
+      },
+      {
+        "name": "NEM",
+        "value": 0.2,
+        "change_24h": 0.02,
+        "change_7d": 0.05
+      },
+      {
+        "name": "Hedera Hashgraph",
+        "value": 0.3,
+        "change_24h": -0.02,
+        "change_7d": -0.05
+      },
+      {
+        "name": "Revain",
+        "value": 0.01,
+        "change_24h": 0.01,
+        "change_7d": 0.03
+      },
+      {
+        "name": "ICON",
+        "value": 1.5,
+        "change_24h": 0.02,
+        "change_7d": 0.05
+      },
+      {
+        "name": "Siacoin",
+        "value": 0.01,
+        "change_24h": -0.01,
+        "change_7d": -0.02
+      }
+    ]
+  }
+  

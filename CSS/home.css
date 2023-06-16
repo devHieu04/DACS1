@@ -102,4 +102,6 @@ canvas {
     width: 100%;
   }
 }
-
+#coinTable tbody tr {
+  height: 25px;
+}
