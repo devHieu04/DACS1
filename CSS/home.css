@@ -77,31 +77,7 @@ canvas {
 .hd {
     margin-left: 1rem ;
 }
-@media (max-width: 767px) {
-  .navbar-nav {
-    display: none;
-  }
-
-  .navbar-nav.show {
-    display: flex;
-    flex-direction: column;
-    background-color: #f8f9fa;
-    padding: 10px;
-  }
-
-  .navbar-nav.show .nav-item {
-    margin-bottom: 10px;
-  }
-
-  .navbar-toggler {
-    display: block;
-  }
-
-  .navbar-nav .nav-link {
-    display: block;
-    width: 100%;
-  }
-}
+/*  */
 #coinTable tbody tr {
   height: 25px;
 }
